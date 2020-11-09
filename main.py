@@ -3,10 +3,10 @@ from singleton.america_president import AmericaPresident
 
 class App:
     def main():
-        trump = AmericaPresident.PRESIDENT
+        trump = AmericaPresident()
         print(id(trump))
         print(trump.say_something())
-        joe = AmericaPresident.PRESIDENT
+        joe = AmericaPresident()
         print(id(joe))
         print(joe.say_something())
 
