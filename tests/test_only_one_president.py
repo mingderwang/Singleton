@@ -9,5 +9,11 @@ class TestSingleton(unittest.TestCase):
                          AmericaPresident.PRESIDENT)
 
 
+class TestSaySomthing(unittest.TestCase):
+    def test_say_something(self):
+        self.assertEqual("I'm the only president of the United States.",
+                         AmericaPresident.PRESIDENT.say_something())
+
+
 if __name__ == '__main__':
     unittest.main()

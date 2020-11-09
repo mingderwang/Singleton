@@ -4,5 +4,5 @@ import enum
 class AmericaPresident(enum.Enum):
     PRESIDENT = ''
 
-    def do_something(self):
-        print("I'm the president of United States")
+    def say_something(self):
+        return "I'm the only president of the United States."
