@@ -11,4 +11,5 @@ class App:
         print(joe.say_something())
 
 
-App.main()
+if __name__ == '__main__':
+    App.main()
