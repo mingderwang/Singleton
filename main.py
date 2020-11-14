@@ -6,9 +6,9 @@ class App:
         trump = AmericaPresident()
         print(id(trump))
         print(trump.say_something())
-        joe = AmericaPresident()
-        print(id(joe))
-        print(joe.say_something())
+        biden = AmericaPresident()
+        print(id(biden))
+        print(biden.say_something())
 
 
 if __name__ == '__main__':

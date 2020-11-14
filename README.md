@@ -1,5 +1,7 @@
 # Singleton Design Pattern
-
+Global State and Singleton cause the code hard to test
+[youtube](https://www.youtube.com/watch?v=-FRm3VPhseI&t=1747s)
+To use DI as possible.
 # test
 add a .replit file with the following lines
 ```
