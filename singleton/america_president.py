@@ -11,3 +11,7 @@ class Singleton(object):
 class AmericaPresident(Singleton):
     def say_something(self):
         return "I'm the only president of the United States."
+
+class Logger(Singleton):
+    def log(self):
+        print("error.")
