@@ -1,17 +1,5 @@
-class Singleton(object):
-    _instances = {}
+from pypattyrn.creational.singleton import Singleton
 
-    def __new__(class_, *args, **kwargs):
-        if class_ not in class_._instances:
-            class_._instances[class_] = super(Singleton, class_).__new__(
-                class_, *args, **kwargs)
-        return class_._instances[class_]
-
-
-class AmericaPresident(Singleton):
-    def say_something(self):
+class AmericaPresident(object, metaclass=Singleton):
+    def say_something(self) -> None:
         return "I'm the only president of the United States."
-
-class Logger(Singleton):
-    def log(self):
-        print("error.")

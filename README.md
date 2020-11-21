@@ -23,3 +23,6 @@ class MyClass(BaseClass):
     pass
 ```
 *There are may other ways, refer to [here](https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python) in stackoverflow
+
+# try another way of implementation
+https://github.com/tylerlaberge/PyPattyrn#singleton-pattern
